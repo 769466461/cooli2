@@ -1,0 +1,336 @@
+#main_top {
+  width: 980px;
+  height: 465px;
+  margin: 10px auto; }
+  #main_top .allsort {
+    z-index: 11;
+    background: url(../images/cssbg.png) no-repeat 0px -166px;
+    float: left;
+    width: 150px;
+    margin-right: 0px;
+    position: relative;
+    height: 45px;
+    margin-top: -55px; }
+    #main_top .allsort .mt {
+      padding-right: 12px;
+      padding-left: 16px;
+      padding-bottom: 10px;
+      cursor: pointer;
+      line-height: 24px;
+      padding-top: 12px;
+      height: 24px; }
+      #main_top .allsort .mt strong {
+        font-size: 14px;
+        float: left;
+        color: #630; }
+    #main_top .allsort .mc {
+      border-right: #f4960f 1px solid;
+      padding-right: 3px;
+      border-top: #f4960f 0px solid;
+      padding-left: 3px;
+      background: #fef8ef;
+      padding-bottom: 0px;
+      overflow: visible;
+      border-left: #f4960f 1px solid;
+      width: 142px;
+      padding-top: 0px;
+      border-bottom: #f4960f 1px solid;
+      position: absolute;
+      top: 45px;
+      -moz-border-radius: 0 0 5px 5px; }
+    #main_top .allsort .subitem {
+      padding-right: 4px;
+      padding-left: 8px;
+      min-height: auto;
+      float: left;
+      padding-bottom: 10px;
+      width: 484px;
+      padding-top: 10px;
+      position: relative;
+      display: block;
+      clear: both; }
+  #main_top span {
+    display: block;
+    z-index: 1;
+    width: 142px;
+    position: relative; }
+  #main_top h3 {
+    border-right: #fef8ef 0px solid;
+    border-top: #fef8ef 0px solid;
+    padding-left: 20px;
+    font-weight: normal;
+    background: url(../images/cssbg.png) no-repeat -318px -240px;
+    border-left: #fef8ef 1px solid;
+    width: 110px;
+    border-bottom: #fef8ef 0px solid;
+    height: 30px;
+    text-align: left; }
+    #main_top h3 a {
+      display: block;
+      color: #333;
+      line-height: 30px;
+      height: 30px; }
+
+#main .margin .goods .goods-li:hover .i-mc {
+  display: block; }
+
+#main {
+  height: 465px; }
+  #main .margin {
+    height: 100%;
+    width: 982px;
+    margin: 0 auto;
+    position: relative; }
+    #main .margin .goods {
+      border-right: #f4960f 1px solid;
+      padding-right: 3px;
+      border-top: #f4960f 0px solid;
+      padding-left: 3px;
+      background: #fef8ef;
+      padding-bottom: 0px;
+      overflow: visible;
+      border-left: #f4960f 1px solid;
+      width: 142px;
+      padding-top: 0px;
+      border-bottom: #f4960f 1px solid;
+      position: absolute;
+      left: -6px;
+      -moz-border-radius: 0 0 5px 5px;
+      -webkit-border-radius: 0 0 5px 5px; }
+      #main .margin .goods .goods-li {
+        border-top: #fde6d2 1px solid;
+        width: 142px;
+        height: 32px; }
+        #main .margin .goods .goods-li span {
+          display: block;
+          z-index: 1;
+          width: 142px;
+          position: relative; }
+          #main .margin .goods .goods-li span h3 {
+            border-right: #fef8ef 0px solid;
+            border-top: #fef8ef 0px solid;
+            padding-left: 20px;
+            font-weight: normal;
+            background: url(../images/cssbg.jpg) no-repeat -318px -240px;
+            border-left: #fef8ef 1px solid;
+            width: 110px;
+            border-bottom: #fef8ef 0px solid;
+            height: 30px;
+            text-align: left; }
+            #main .margin .goods .goods-li span h3 a {
+              display: block;
+              color: #333;
+              line-height: 30px;
+              height: 30px; }
+          #main .margin .goods .goods-li span s {
+            display: block;
+            background: url(../images/cssbg.jpg) no-repeat -274px -216px;
+            left: 102px;
+            width: 13px;
+            position: absolute;
+            top: 10px;
+            height: 13px; }
+        #main .margin .goods .goods-li .i-mc {
+          border-right: #c30 2px solid;
+          border-top: #c30 2px solid;
+          display: none;
+          background: #fff9ef;
+          left: 130px;
+          overflow: hidden;
+          border-left: #c30 2px solid;
+          width: 506px;
+          border-bottom: #c30 2px solid;
+          position: relative;
+          _position: relative;
+          top: -66px;
+          text-align: left;
+          display: none; }
+          #main .margin .goods .goods-li .i-mc .subitem {
+            padding-right: 4px;
+            padding-left: 8px;
+            min-height: auto;
+            float: left;
+            padding-bottom: 10px;
+            width: 484px;
+            padding-top: 10px;
+            position: relative;
+            display: block;
+            clear: both; }
+            #main .margin .goods .goods-li .i-mc .subitem dl {
+              padding-right: 0px;
+              border-top: #ffefd7 1px solid;
+              padding-left: 0px;
+              padding-bottom: 6px;
+              overflow: hidden;
+              padding-top: 6px; }
+              #main .margin .goods .goods-li .i-mc .subitem dl dt {
+                float: left;
+                width: 54px;
+                line-height: 22px;
+                text-align: right;
+                padding-right: 6px;
+                padding-left: 0px;
+                font-weight: bold;
+                padding-bottom: 0px;
+                padding-top: 3px; }
+              #main .margin .goods .goods-li .i-mc .subitem dl dd {
+                float: left;
+                width: 420px;
+                padding-right: 0px;
+                padding-left: 0px;
+                padding-bottom: 0px;
+                overflow: hidden;
+                padding-top: 3px; }
+                #main .margin .goods .goods-li .i-mc .subitem dl dd a {
+                  border-left: #ccc 1px solid;
+                  padding: 0 8px;
+                  margin-bottom: 5px;
+                  display: inline-block;
+                  line-height: 20px;
+                  color: #333; }
+            #main .margin .goods .goods-li .i-mc .subitem dl.fore {
+              border-top-style: none; }
+      #main .margin .goods .goods-last {
+        padding-right: 8px;
+        border-top: #fde6d2 1px solid;
+        padding-left: 8px;
+        background: #fdf1de;
+        padding-bottom: 7px;
+        padding-top: 7px; }
+        #main .margin .goods .goods-last a {
+          color: #333; }
+  #main .main-r {
+    margin-top: 10px;
+    width: 820px;
+    height: 459px;
+    float: right; }
+    #main .main-r .main-r-t {
+      width: 100%;
+      height: 250px; }
+      #main .main-r .main-r-t .main-r-banner {
+        float: left;
+        width: 590px;
+        height: 250px;
+        background: #f99; }
+        #main .main-r .main-r-t .main-r-banner .btn {
+          position: relative;
+          width: 100%;
+          height: 20px;
+          top: 230px;
+          text-align: right; }
+          #main .main-r .main-r-t .main-r-banner .btn span {
+            display: inline-block;
+            _display: inline;
+            _zoom: 1;
+            width: 25px;
+            height: 10px;
+            _font-size: 0;
+            margin-left: 5px;
+            cursor: pointer;
+            background: #fff; }
+      #main .main-r .main-r-t .main-r-t-r {
+        float: right;
+        width: 218px;
+        height: 250px; }
+        #main .main-r .main-r-t .main-r-t-r .main-r-t-r-t {
+          height: 162px;
+          border: 1px #e1e1e1 solid;
+          background-image: url(../images/newsbg_inf.jpg);
+          background-repeat: repeat-x; }
+          #main .main-r .main-r-t .main-r-t-r .main-r-t-r-t h6 {
+            font-size: 12px;
+            font-weight: normal;
+            padding: 3px 0px 3px 10px;
+            color: #f30; }
+          #main .main-r .main-r-t .main-r-t-r .main-r-t-r-t .inf_teeul {
+            margin-top: 10px; }
+            #main .main-r .main-r-t .main-r-t-r .main-r-t-r-t .inf_teeul .inf_teeli {
+              height: 25px;
+              width: 200px;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              padding-left: 10px;
+              text-align: left; }
+              #main .main-r .main-r-t .main-r-t-r .main-r-t-r-t .inf_teeul .inf_teeli a {
+                color: #333; }
+        #main .main-r .main-r-t .main-r-t-r .main-r-t-r-b {
+          margin-top: 10px; }
+
+.main-r-b {
+  overflow: hidden;
+  width: 818px;
+  height: 195px;
+  float: right;
+  margin-top: 5px;
+  border: #e1e1e1 1px solid; }
+  .main-r-b .tab1 {
+    width: 818px;
+    height: 30px;
+    background-image: url(../images/newsbg.jpg);
+    background-repeat: repeat-x; }
+    .main-r-b .tab1 li {
+      color: #FFFFFF;
+      font-weight: bold;
+      background-image: url(../images/bg1.jpg);
+      background-repeat: no-repeat;
+      float: left;
+      padding: 0 18px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer;
+      border-right: 1px #e1e1e1 solid;
+      list-style: none;
+      font-size: 12px; }
+  .main-r-b .main-r-b-b table {
+    padding-top: 8px;
+    display: block; }
+
+.main2 {
+  width: 980px;
+  height: 455px;
+  margin: 10px auto; }
+  .main2 .title {
+    width: 980px;
+    height: 30px;
+    float: left; }
+    .main2 .title .title-left {
+      width: 200px;
+      height: 25px;
+      float: left;
+      padding: 0px 0px 0px 0px; }
+      .main2 .title .title-left a {
+        color: #333; }
+    .main2 .title .title-right {
+      width: 720px;
+      height: 22px;
+      float: left;
+      padding: 8px 0px 0px 50px;
+      text-align: right;
+      color: #999; }
+      .main2 .title .title-right a {
+        color: #333; }
+      .main2 .title .title-right a:hover {
+        color: #f30;
+        text-decoration: underline; }
+  .main2 .main2-c {
+    width: 978px;
+    height: 420px;
+    float: left;
+    border: 1px #f90 solid; }
+    .main2 .main2-c .main2-c-l {
+      width: 365px;
+      height: 415px;
+      float: left; }
+    .main2 .main2-c .main2-c-r {
+      width: 608px;
+      height: 415px;
+      float: right; }
+      .main2 .main2-c .main2-c-r .cooli_floor_main_right_spany {
+        text-decoration: line-through;
+        color: #666; }
+      .main2 .main2-c .main2-c-r .cooli_floor_main_right_spanx {
+        color: #990000;
+        font-weight: bold;
+        margin-left: 10px; }
