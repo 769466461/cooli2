@@ -132,6 +132,9 @@ header {
     position: relative;
     left: 3px;
     top: 5px; }
+    #nav .fl a:hover {
+      color: #f30;
+      text-decoration: underline; }
   #nav .cooli_new_banner_pic {
     position: relative;
     width: 1000px;

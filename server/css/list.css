@@ -1,0 +1,48 @@
+#cont {
+  width: 1200px;
+  height: 600px;
+  margin: 20px auto;
+  overflow: hidden; }
+
+.h3 {
+  width: 1200px;
+  margin: 0 auto; }
+
+.box {
+  width: 198px;
+  height: 258px;
+  float: left;
+  border: solid 1px black;
+  box-sizing: border-box;
+  text-align: center; }
+
+.box img {
+  width: 80%; }
+
+.box p {
+  height: 20px;
+  overflow: hidden;
+  line-height: 20px;
+  text-align: center; }
+
+.box .car a {
+  width: 80%;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  background: #f60;
+  margin: 0 auto; }
+
+p.details {
+  width: 80%;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  background: #99f;
+  margin: 5px auto; }
+
+.h3 strong a {
+  color: #f30; }
+
+.h3 small a {
+  color: #f30; }

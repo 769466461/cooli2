@@ -144,7 +144,8 @@
           _position: relative;
           top: -66px;
           text-align: left;
-          display: none; }
+          display: none;
+          z-index: 2; }
           #main .margin .goods .goods-li .i-mc .subitem {
             padding-right: 4px;
             padding-left: 8px;
@@ -316,7 +317,7 @@
         text-decoration: underline; }
   .main2 .main2-c {
     width: 978px;
-    height: 420px;
+    height: 432px;
     float: left;
     border: 1px #f90 solid; }
     .main2 .main2-c .main2-c-l {
@@ -334,3 +335,97 @@
         color: #990000;
         font-weight: bold;
         margin-left: 10px; }
+
+html, body {
+  position: relative;
+  height: 100%; }
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+aside {
+  position: fixed;
+  right: 0;
+  bottom: 200px;
+  width: 100px;
+  height: 200px; }
+  aside li {
+    height: 50px;
+    background: #f99;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-top: 1px solid #9f9; }
+
+#list {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  top: 87px;
+  z-index: 2; }
+  #list li {
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    height: 25px;
+    left: 27px; }
+  #list li:nth-child(2) {
+    top: 25px; }
+  #list li:nth-child(3) {
+    top: 50px; }
+  #list li:nth-child(4) {
+    top: 75px; }
+  #list li:nth-child(5) {
+    top: 100px; }
+  #list li:nth-child(6) {
+    top: 125px; }
+  #list li:nth-child(7) {
+    top: 150px; }
+  #list li:nth-child(8) {
+    top: 175px; }
+  #list li:nth-child(9) {
+    top: 200px; }
+  #list li:nth-child(10) {
+    top: 225px; }
+  #list li:nth-child(11) {
+    top: 250px; }
+
+.atriple {
+  position: relative; }
+  .atriple .triple {
+    display: none;
+    position: absolute;
+    left: 3px;
+    top: 20px; }
+
+.atriple:hover .triple {
+  display: block; }
